@@ -21,14 +21,15 @@ import web6 from "../public/web6.png";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const commonStyle = {
-    textGray800PY1: 'text-gray-800 py-1',
-    cardContainer: 'text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1',
-    toolsHeader: 'py-4 text-teal-600',
-    textStyle: 'text-md py-2 leading-8 text-gray-800 dark:text-gray-200',
-    textHeader: 'text-3xl py-1 dark:text-white',
-    img: 'rounded-lg object-cover',
-    imgContainer: 'basis-1/3 flex-1',
-  }
+    textGray800PY1: "text-gray-800 py-1",
+    cardContainer:
+      "text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1",
+    toolsHeader: "py-4 text-teal-600",
+    textStyle: "text-md py-2 leading-8 text-gray-800 dark:text-gray-200",
+    textHeader: "text-3xl py-1 dark:text-white",
+    img: "rounded-lg object-cover",
+    imgContainer: "basis-1/3 flex-1",
+  };
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -66,7 +67,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and let&apos;s get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -83,7 +84,7 @@ export default function Home() {
             <h3 className={commonStyle.textHeader}>Services I offer</h3>
             <p className={commonStyle.textStyle}>
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -116,7 +117,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className={commonStyle.toolsHeader}>Design Tools I Use</h4>
@@ -126,7 +127,12 @@ export default function Home() {
               <p className={commonStyle.textGray800PY1}>Indesign</p>
             </div>
             <div className={commonStyle.cardContainer}>
-              <Image alt="consulting" src={consulting} width={100} height={100} />
+              <Image
+                alt="consulting"
+                src={consulting}
+                width={100}
+                height={100}
+              />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -145,7 +151,7 @@ export default function Home() {
             <h3 className={commonStyle.textHeader}>Portofolio</h3>
             <p className={commonStyle.textStyle}>
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -158,7 +164,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className={commonStyle.imgContainer}>
-              <Image alt="web1"
+              <Image
+                alt="web1"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -167,7 +174,8 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image alt="web2"
+              <Image
+                alt="web2"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -176,7 +184,8 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image alt="web3"
+              <Image
+                alt="web3"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -185,7 +194,8 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image alt="web4"
+              <Image
+                alt="web4"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -194,7 +204,8 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image alt="web5"
+              <Image
+                alt="web5"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -203,7 +214,8 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image alt="web6"
+              <Image
+                alt="web6"
                 className="img"
                 width={"100%"}
                 height={"100%"}
