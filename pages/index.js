@@ -74,7 +74,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image alt="deved" src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -96,7 +96,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className={commonStyle.cardContainer}>
-              <Image src={design} width={100} height={100} />
+              <Image alt="design" src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -111,7 +111,7 @@ export default function Home() {
               <p className={commonStyle.textGray800PY1}>Indesign</p>
             </div>
             <div className={commonStyle.cardContainer}>
-              <Image src={code} width={100} height={100} />
+              <Image alt="code" src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -126,7 +126,7 @@ export default function Home() {
               <p className={commonStyle.textGray800PY1}>Indesign</p>
             </div>
             <div className={commonStyle.cardContainer}>
-              <Image src={consulting} width={100} height={100} />
+              <Image alt="consulting" src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className={commonStyle.imgContainer}>
-              <Image
+              <Image alt="web1"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -167,7 +167,7 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image
+              <Image alt="web2"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -176,7 +176,7 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image
+              <Image alt="web3"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -185,7 +185,7 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image
+              <Image alt="web4"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -194,7 +194,7 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image
+              <Image alt="web5"
                 className="img"
                 width={"100%"}
                 height={"100%"}
@@ -203,7 +203,7 @@ export default function Home() {
               />
             </div>
             <div className={commonStyle.imgContainer}>
-              <Image
+              <Image alt="web6"
                 className="img"
                 width={"100%"}
                 height={"100%"}
